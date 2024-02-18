@@ -1,19 +1,6 @@
 #include<vector>
 #include<iostream>
 
-/*class Board{
-    //vector representing game field
-    char player = 'O';
-    char computer = 'X';
-
-public:
-    std::vector<std::vector<char>> board = {{' ',' ',' '},{' ',' ',' '},{' ',' ',' '}};
-    bool still_playing = true; 
-    bool is_won = false;
-    
-
-};*/
-
 struct CompMove{
     int row;
     int col;
